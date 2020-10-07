@@ -1,0 +1,26 @@
+.article-spe {
+    width: 65%;
+    margin-left: 230px;
+    #article-title {
+        text-align: center;
+    }
+    #article-author {
+        display: block;
+        text-align: center;
+    }
+    #article-time {
+        text-align: center;
+    }
+    #article-content {
+        text-indent: 2em;
+    }
+    .comment {
+        margin-top: 50px;
+        #article-comment {
+            list-style: none;
+            a {
+                color: red;
+            }
+        }
+    }
+}

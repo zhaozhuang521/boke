@@ -1,0 +1,60 @@
+#page-footer {
+    position: fixed;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+.navbar {
+    width: 100%;
+    .container-fluid {
+        width: 900px;
+        margin: 0 auto;
+    }
+}
+
+#aside-left {
+    width: 200px;
+    height: 400px;
+    background-color: #f8f8f8;
+    color: black;
+    float: left;
+    li {
+        color: black;
+        a {
+            background-color: #e7e7e7;
+            color: black;
+        }
+    }
+}
+
+#article-news {
+    list-style: none;
+    margin-left: 300px;
+    li {
+        height: 30px;
+        width: 600px;
+        font-size: 15px;
+        overflow: hidden;
+        a {
+            color: #111;
+            &:hover {}
+            float: left;
+        }
+        .del,
+        #update {
+            float: left;
+            color: red;
+            font-size: 13px;
+            margin-left: 20px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        #update {
+            color: green;
+        }
+    }
+}

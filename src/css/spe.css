@@ -1,0 +1,18 @@
+.article-spe {
+  width: 65%;
+  margin-left: 230px; }
+  .article-spe #article-title {
+    text-align: center; }
+  .article-spe #article-author {
+    display: block;
+    text-align: center; }
+  .article-spe #article-time {
+    text-align: center; }
+  .article-spe #article-content {
+    text-indent: 2em; }
+  .article-spe .comment {
+    margin-top: 50px; }
+    .article-spe .comment #article-comment {
+      list-style: none; }
+      .article-spe .comment #article-comment a {
+        color: red; }
